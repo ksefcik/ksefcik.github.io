@@ -1,7 +1,36 @@
 title: Testovací dokumentace
 description: Test GitHub Pages a Jekyll
 
-theme: jekyll-theme-minimal
-
 url: "https://ksefcik.github.io"
 baseurl: ""
+
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+
+plugins:
+  - jekyll-remote-theme
+
+color_scheme: dark
+
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  rel_url: true
+  button: true
+  focus_shortcut_key: "k"
+
+enable_copy_code_button: true
+heading_anchors: true
+
+aux_links:
+  "GitHub":
+    - "https://github.com/ksefcik/ksefcik.github.io"
+
+aux_links_new_tab: true
+
+back_to_top: true
+back_to_top_text: "Zpět nahoru"
+
+footer_content: "Testovací dokumentace vytvořená pomocí GitHub Pages."
