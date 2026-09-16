@@ -1,0 +1,7 @@
+title: Testovací dokumentace
+description: Test GitHub Pages a Jekyll
+
+theme: jekyll-theme-minimal
+
+url: "https://ksefcik.github.io"
+baseurl: ""
