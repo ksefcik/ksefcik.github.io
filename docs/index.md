@@ -1,12 +1,25 @@
 ---
 layout: default
-title: Testovací dokumentace
+title: Úvod
+nav_order: 1
+description: Úvodní stránka testovací dokumentace
+permalink: /
 ---
 
 # Testovací dokumentace
 
-GitHub Pages funguje správně.
+Vítejte v testovací dokumentaci.
 
-## První kapitola
+Tento web používá:
 
-Toto je testovací stránka vytvořená pomocí Jekyll.
+- GitHub Pages
+- Jekyll
+- Just the Docs
+- tmavé barevné schéma
+- vestavěné vyhledávání
+
+## Začínáme
+
+V levém navigačním panelu vyberte požadovanou kapitolu.
+
+Vyhledávání můžete aktivovat také klávesovou zkratkou `Ctrl+K`.
