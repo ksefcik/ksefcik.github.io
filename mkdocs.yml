@@ -1,26 +1,29 @@
-site_name: Testovací dokumentace
-site_description: Testovací dokumentace na GitHub Pages
-site_url: https://ksefcik.github.io/
+site_name: ICT Dokumentace
+site_description: Centrální technická dokumentace ICT
+site_author: ICT
 
-repo_name: ksefcik/ksefcik.github.io
-repo_url: https://github.com/ksefcik/ksefcik.github.io
-edit_uri: edit/main/docs/
+site_url: https://ksefcik.github.io/
 
 theme:
   name: material
   language: cs
 
-  icon:
-    repo: fontawesome/brands/github
+  logo: material/book-open-page-variant
 
   palette:
     scheme: slate
-    primary: black
-    accent: green
+    primary: custom
+    accent: custom
+
+  font:
+    text: Roboto
+    code: Roboto Mono
 
   features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
     - navigation.sections
-    - navigation.expand
     - navigation.path
     - navigation.top
     - toc.follow
@@ -28,14 +31,14 @@ theme:
     - search.highlight
     - search.share
     - content.code.copy
-    - content.action.edit
+    - content.tooltips
 
 plugins:
   - search:
       lang: cs
 
 nav:
-  - Úvod: index.md
+  - Přehled: index.md
   - Začínáme:
       - Instalace: instalace.md
 
@@ -44,7 +47,17 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
   - toc:
       permalink: true
       toc_depth: 3
@@ -52,4 +65,12 @@ markdown_extensions:
 extra_css:
   - stylesheets/extra.css
 
-copyright: Copyright &copy; 2026 Testovací dokumentace
+extra:
+  generator: false
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ksefcik/ksefcik.github.io
+      name: Zdrojový repozitář
+
+copyright: ICT Dokumentace
