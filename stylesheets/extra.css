@@ -1,0 +1,75 @@
+/* Celá tmavá stránka */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0d1117;
+  --md-default-bg-color--light: #161b22;
+  --md-default-bg-color--lighter: #21262d;
+  --md-default-fg-color: #e6edf3;
+  --md-default-fg-color--light: #b1bac4;
+
+  --md-primary-fg-color: #010409;
+  --md-primary-fg-color--light: #0d1117;
+  --md-primary-fg-color--dark: #010409;
+
+  --md-accent-fg-color: #3fb950;
+  --md-typeset-a-color: #58a6ff;
+
+  --md-code-bg-color: #161b22;
+  --md-code-fg-color: #e6edf3;
+}
+
+/* Černá horní lišta */
+.md-header {
+  background-color: #010409;
+  border-bottom: 1px solid #238636;
+  box-shadow: none;
+}
+
+/* Případné horní záložky */
+.md-tabs {
+  background-color: #010409;
+  border-bottom: 1px solid #30363d;
+}
+
+/* Levé a pravé navigační panely */
+.md-sidebar {
+  background-color: #0d1117;
+}
+
+/* Vyhledávací pole */
+.md-search__form {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+}
+
+.md-search__form:hover,
+.md-search__form:focus-within {
+  border-color: #58a6ff;
+}
+
+/* Oddělení hlavního obsahu */
+.md-content {
+  border-left: 1px solid #21262d;
+  border-right: 1px solid #21262d;
+}
+
+/* Aktivní položka navigace */
+.md-nav__link--active {
+  color: #3fb950;
+  font-weight: 600;
+}
+
+/* Nadpisy */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  color: #f0f6fc;
+}
+
+/* Mobilní zobrazení bez okrajů */
+@media screen and (max-width: 76.234375em) {
+  .md-content {
+    border-left: 0;
+    border-right: 0;
+  }
+}
