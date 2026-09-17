@@ -1,25 +1,65 @@
----
-layout: default
-title: Úvod
-nav_order: 1
-description: Úvodní stránka testovací dokumentace
-permalink: /
----
-
 # Testovací dokumentace
 
-Vítejte v testovací dokumentaci.
+Vítejte v testovací dokumentaci vytvořené pomocí GitHub Pages a Material for MkDocs.
 
-Tento web používá:
+## O dokumentaci
 
-- GitHub Pages
-- Jekyll
-- Just the Docs
-- tmavé barevné schéma
-- vestavěné vyhledávání
+Tato testovací dokumentace ukazuje možnosti moderního dokumentačního webu:
 
-## Začínáme
+- fulltextové vyhledávání,
+- levé navigační menu,
+- obsah stránky na pravé straně,
+- tmavý vzhled,
+- responzivní zobrazení,
+- zvýrazňování zdrojového kódu.
 
-V levém navigačním panelu vyberte požadovanou kapitolu.
+## Rychlý začátek
 
-Vyhledávání můžete aktivovat také klávesovou zkratkou `Ctrl+K`.
+Pokračujte na stránku [Instalace](instalace.md).
+
+## Ukázka kódu
+
+```powershell
+Write-Host "Dokumentace funguje"
+```
+
+Nadpisy `##` a `###` automaticky vytvoří pravý panel „Obsah stránky“.
+
+## 4. Upravte `docs/instalace.md`
+
+# Instalace
+
+Tato stránka slouží jako ukázka instalační dokumentace.
+
+## Požadavky
+
+Před zahájením budete potřebovat:
+
+- účet na GitHubu,
+- veřejný repozitář,
+- povolené GitHub Actions,
+- zapnuté GitHub Pages.
+
+## Vytvoření repozitáře
+
+Vytvořte veřejný repozitář pojmenovaný:
+
+```text
+ksefcik.github.io
+```
+
+## Přidání dokumentace
+
+Dokumentační stránky ukládejte do složky docs.
+Každá stránka je běžný Markdown soubor:
+
+```text
+docs/
+├── index.md
+└── instalace.md
+```
+## Nasazení
+
+Po odeslání změn do větve main se automaticky spustí GitHub Actions a nová verze dokumentace se publikuje.
+
+
