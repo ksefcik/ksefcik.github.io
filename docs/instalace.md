@@ -1,21 +1,36 @@
----
-layout: default
-title: Instalace
-nav_order: 2
----
-
 # Instalace
 
-Toto je testovací stránka s instalačním postupem.
+Tato stránka slouží jako ukázka instalační dokumentace.
 
 ## Požadavky
 
-- účet na GitHubu
-- veřejný repozitář
-- zapnuté GitHub Pages
+Před zahájením budete potřebovat:
 
-## Postup
+- účet na GitHubu,
+- veřejný repozitář,
+- povolené GitHub Actions,
+- zapnuté GitHub Pages.
 
-1. Vytvořte dokumentaci.
-2. Commitněte změny.
-3. Počkejte na dokončení nasazení.
+## Vytvoření repozitáře
+
+Vytvořte veřejný repozitář pojmenovaný:
+
+```text
+ksefcik.github.io
+```
+
+## Přidání dokumentace
+
+Dokumentační stránky ukládejte do složky `docs`.
+
+Každá stránka je běžný Markdown soubor:
+
+```text
+docs/
+├── index.md
+└── instalace.md
+```
+
+## Nasazení
+
+Po odeslání změn do větve `main` se automaticky spustí GitHub Actions a nová verze dokumentace se publikuje.
