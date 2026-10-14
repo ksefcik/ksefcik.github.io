@@ -7,8 +7,8 @@ site_url: https://ksefcik.github.io/
 theme:
   name: material
   language: cs
-
-  logo: material/book-open-page-variant
+  icon:
+    logo: material/book-open-page-variant
 
   palette:
     scheme: slate
